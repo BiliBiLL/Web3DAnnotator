@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h2>File Uploader</h2>
+            <form name="demoForm" id="demoForm" method="post" enctype="multipart/form-data" action="javascript: uploadAndSubmit();">
+                <p>Upload Files: <input type="file" name="file"></p>
+                <p><input type="submit" value="Submit"></p>
+            </form>
+            
+            <div>Progressing
+                <span id="bytesRead">
+                </span>
+                <span id="bytesTotal">
+                </span>
+            </div>
+        
+            <canvas id = "annoCanvas"></canvas>
+            
+        </div>
+        
+        
+        
+        <!--div id="container"> 
+            <span>Drag and drop files here to upload.</span> 
+            <ul id="fileList"></ul> 
+        </div>
+    <!-- Scripts -->       
+        <script src="../static/FileLoadAPI.js"></script>
+        <script src="../static/FileDropAPI.js"></script>
+        <script src="../static/dataManipulate.js"></script>
+        <script src="../static/renderImg.js"></script>
+    </body>
+</html> 
+
