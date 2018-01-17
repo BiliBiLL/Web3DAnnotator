@@ -1,0 +1,5 @@
+The grabcut.py have to run in virtual environment :
+
+the operation is . venv/bin/activate
+
+To deactivate just do $"deactivate" command
